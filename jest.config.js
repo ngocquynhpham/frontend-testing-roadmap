@@ -1,8 +1,8 @@
+// jest.config.js
 module.exports = {
-  testEnvironment: "jsdom",
+  testEnvironment: 'jsdom',
   transform: {
-    "^.+\\.(js|jsx|ts|tsx)$": "babel-jest",
+    '^.+\\.[tj]sx?$': 'babel-jest'
   },
-  moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
-  setupFilesAfterEnv: ["<rootDir>/setupTests.js"],
+  moduleFileExtensions: ['js','jsx','json','node']
 };

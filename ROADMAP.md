@@ -1,24 +1,26 @@
 # Jest + React Testing Roadmap
 
-## Tuần 1: Jest cơ bản (Unit Test)
-- [ ] Hiểu Jest core API (test/describe/expect)
-- [ ] Matchers phổ biến (toBe/toEqual/toContain/toThrow)
-- [ ] Setup & teardown (beforeEach/afterEach)
-- [ ] Unit test cho pure functions
+# 🎯 Goal: Self-study Jest + React Testing Library in 4 Weeks
 
-## Tuần 2: React Testing Library (RTL)
-- [ ] Render component (render)
-- [ ] Query elements (getByRole/getByText/...)
-- [ ] User interactions (fireEvent/userEvent)
-- [ ] Test UI rendering logic & accessibility query
+## Week 1: Jest Basics (Unit Testing)
+- [ ] Understand Jest core API (`test` / `describe` / `expect`)
+- [ ] Common matchers (`toBe` / `toEqual` / `toContain` / `toThrow`)
+- [ ] Setup & teardown (`beforeEach` / `afterEach`)
+- [ ] Unit test for pure functions
 
-## Tuần 3: Mocking & Async
-- [ ] Mock fetch/axios (jest.fn/jest.mock)
-- [ ] Test useEffect + API call
-- [ ] Async utilities (findBy, waitFor)
+## Week 2: React Testing Library (RTL)
+- [ ] Render components (`render`)
+- [ ] Query elements (`getByRole` / `getByText` / …)
+- [ ] User interactions (`fireEvent` / `userEvent`)
+- [ ] Test UI rendering logic & accessibility queries
 
-## Tuần 4: Best Practices
-- [ ] Coverage report (jest --coverage)
+## Week 3: Mocking & Async
+- [ ] Mock `fetch` / `axios` (`jest.fn` / `jest.mock`)
+- [ ] Test `useEffect` + API calls
+- [ ] Async utilities (`findBy`, `waitFor`)
+
+## Week 4: Best Practices
+- [ ] Coverage report (`jest --coverage`)
 - [ ] Snapshot testing
 - [ ] Organize test folder structure
 - [ ] CI/CD integration (GitHub Actions)
